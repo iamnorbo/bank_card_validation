@@ -63,6 +63,6 @@ class Validation():
 
 
 
-mycard = Validation(5321808991284073)
+mycard = Validation()
 mycard.define_card_type()
 mycard.luhn_algorithm()
